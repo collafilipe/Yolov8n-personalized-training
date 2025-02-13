@@ -1,0 +1,9 @@
+# Caminhos para as imagens de treino e validação
+train: Teste/testeTrain  # Caminho completo para imagens de treino
+val: Teste/testeVal    # Caminho completo para imagens de validação
+
+# Número de classes no dataset
+nc: 2  # Número de classes (1, considerando que você tem apenas "Objeto")
+
+# Nomes das classes
+names: ["Test1", "Test2"]  # Nome da classe identificada
